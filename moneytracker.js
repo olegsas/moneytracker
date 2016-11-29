@@ -24,9 +24,9 @@ function randomByr(min, max){
 
 function oneDayOfUser(){
     var userDay = [], i = 0;
-    db.studdent.find().forEach(
-        i++;
+    db.student.find().forEach(
         function(myName){
+            i++;
             userDay[i] = myName.OperationName;
             print("Operation Name: " + myName.OperationName);
             print("i= " + i);
